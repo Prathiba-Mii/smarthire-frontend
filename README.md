@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# SmartHire 🎯 — AI Job Application Tracker (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A smart, AI-powered job application tracker built with React.js and Tailwind CSS.
 
-## Available Scripts
+🔗 **Live Demo:** [smarthire-frontend-self.vercel.app](https://smarthire-frontend-self.vercel.app)  
+🔗 **Backend Repo:** [github.com/Prathiba-Mii/smarthire-backend](https://github.com/Prathiba-Mii/smarthire-backend)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔐 **JWT Authentication** — Secure Signup & Login
+- 📋 **Job Application Tracker** — Add, Update Status, Delete applications
+- 📊 **Live Stats Dashboard** — Applied, Interview, Offer, Rejected counts
+- 🤖 **AI Cover Letter Generator** — Powered by Groq API (Llama 3.3)
+- 📋 **One-click Copy** — Copy AI-generated cover letters instantly
+- 📱 **Fully Responsive** — Works on mobile and desktop
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend framework |
+| Tailwind CSS | Styling |
+| Axios | API calls |
+| React Router DOM | Client-side routing |
+| Groq AI API | Cover letter generation |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Node.js v18+
+- npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+```bash
+# Clone the repository
+git clone https://github.com/Prathiba-Mii/smarthire-frontend.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Navigate to project folder
+cd smarthire-frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Start development server
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Environment Setup
+Create a `.env` file in root:
+```
+REACT_APP_API_URL=http://localhost:5000
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📁 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+frontend/
+├── src/
+│   ├── pages/
+│   │   ├── Login.js
+│   │   ├── Signup.js
+│   │   └── Dashboard.js
+│   ├── App.js
+│   └── index.js
+├── public/
+└── package.json
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🖥️ Screenshots
 
-### Analyzing the Bundle Size
+### Dashboard
+- Stats cards showing Applied, Interview, Offer, Rejected counts
+- Job list with status update dropdown
+- AI Cover Letter Generator with skills & experience input
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🔗 Related
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- 🔙 **Backend:** [smarthire-backend](https://github.com/Prathiba-Mii/smarthire-backend) — Node.js + Express + MongoDB
+- 👩‍💻 **Developer:** [Prathiba Kamle](https://github.com/Prathiba-Mii)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👩‍💻 Developer
 
-### Deployment
+**Prathiba Kamle**  
+Full Stack Developer | MERN Stack  
+🔗 [LinkedIn](https://www.linkedin.com/in/prathiba-kamle-693b4b2a4/) | [GitHub](https://github.com/Prathiba-Mii)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ If you like this project, give it a star!
