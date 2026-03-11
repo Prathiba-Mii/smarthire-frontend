@@ -26,8 +26,9 @@ function Dashboard() {
 
   useEffect(() => {
     fetchJobs();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
+  
   const fetchJobs = async () => {
     try {
       const res = await axios.get(`${API}/api/jobs`, { headers: getHeaders() });
